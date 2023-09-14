@@ -13,11 +13,6 @@ def decimal_to_binary(decimal):
         
     return binary
 
-        
-
-
-    
-
 try:
     decimal = int(input("Enter a decimal number between 0 and 255: "))
     if 0 <= decimal <= 255:
